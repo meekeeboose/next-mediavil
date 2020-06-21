@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className='navbar navbar-expand navbar-dark bg-dark mb-4'>
       <div className='container'>
-        <a className='navbar-brand' href='#'>
+        <a className='navbar-brand' href='/'>
           Mediavil
         </a>
         <div className='collapse navbar-collapse'>

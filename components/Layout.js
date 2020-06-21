@@ -16,8 +16,10 @@ const Layout = (props) => {
         />
       </Head>
       <Navbar />
-      {props.children}
-      <Footer />
+      <div className='container'>
+        {props.children}
+        <Footer />
+      </div>
     </div>
   );
 };
